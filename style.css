@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+a:not(:last-child) {
+    margin-right: 20px;
+}

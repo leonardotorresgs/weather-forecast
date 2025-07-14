@@ -10,7 +10,7 @@ function updateData(data) {
 }
 
 async function searchCity(city) { 
-   
+  
    const data = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=metric`).then(response => response.json())
     
    updateData(data)

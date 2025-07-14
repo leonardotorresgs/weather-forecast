@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <form id="search">
+            <div>
+                <input type="search" name="city-name" id="city-name" placeholder="Sua cidade">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+        <div id="weather">
+            <h1 id="title">Tarumã</h1>
+            <div id="infos">
+                <p>Temp.Atual: <label id="temp">12</label></p>
+                <p>Temp.Min: <label id="temp-min">12<sup>C°</sup></label></p>
+                <p>Temp.Max: <label id="temp-max">25<sup>C°</sup></label></p>
+                <p>Vento: <label id="wind">12 km/h</label></p>
+                <p>Descrição: <label id="description">Ensolarado</label></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

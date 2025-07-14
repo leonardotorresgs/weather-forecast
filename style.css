@@ -4,6 +4,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: linear-gradient(90deg, black, rgba(0, 0, 0, 0.726));
+    color: white;
+    text-decoration: none;
 }
 a:not(:last-child) {
     margin-right: 20px;
